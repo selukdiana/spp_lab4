@@ -11,8 +11,8 @@ namespace MainPart
     {
         static void Main(string[] args)
         {
-             var pathToFolder = "D:\\спп 4\\TestGenerator-master\\MainPart\\Files";
-            var pathToGenerated = @"D:\\спп 4\\TestGenerator-master\\GeneratedTests\\GeneratedFiles";
+             var pathToFolder = "C:\\Users\\diana\\source\\repos\\spp_lab4\\MainPart\\Files";
+            var pathToGenerated = @"C:\\Users\\diana\\source\\repos\\spp_lab4\\GeneratedTests\\GeneratedFiles";
             
             if (!Directory.Exists(pathToFolder))
             {
