@@ -9,8 +9,4 @@
     <ProjectReference Include="..\TestGeneratorLib\TestGeneratorLib.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Remove="Files\Текстовый документ.txt" />
-  </ItemGroup>
-
 </Project>

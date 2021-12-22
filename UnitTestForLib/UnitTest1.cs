@@ -8,18 +8,19 @@ using System.Diagnostics;
 using System.Threading;
 using System;
 using TestGeneratorLib;
+
 namespace UnitTestForLib
 {
     public class Tests
     {
         public static int i  = 0;
-        string Path = @"D:\\спп 4\\TestGenerator-master\\UnitTestForLib\\Files";
-        string PathToFolder = @"D:\\спп 4\\TestGenerator-master\\UnitTestForLib\\Generated\\";
+        string Path = @"D:\Projects\mpp-labs\lab4\UnitTestForLib\Files";
+        string PathToFolder = @"D:\Projects\mpp-labs\lab4\UnitTestForLib\Generated\";
 
         IEnumerable<string> files;
         string[] generatedFiles;
-
         ITestGenerator gen;
+
         [SetUp]
         public void Setup()
         {
@@ -29,7 +30,7 @@ namespace UnitTestForLib
         [Test]
         public void FilesNumber()
         {
-            Assert.AreEqual(files.Count(),2,"Another number of files");
+            Assert.AreEqual(files.Count(),2,"Another nuber of files");
         }
 
         [Test]
@@ -96,6 +97,5 @@ namespace UnitTestForLib
             Tests.i++;
             return new Dictionary<string, string>();
         }
-
     }
 }

@@ -11,7 +11,7 @@ namespace MainPart
     {
         static void Main(string[] args)
         {
-             var pathToFolder = "C:\\Users\\diana\\source\\repos\\spp_lab4\\MainPart\\Files";
+            var pathToFolder = "C:\\Users\\diana\\source\\repos\\spp_lab4\\MainPart\\Files";
             var pathToGenerated = @"C:\\Users\\diana\\source\\repos\\spp_lab4\\GeneratedTests\\GeneratedFiles";
             
             if (!Directory.Exists(pathToFolder))
@@ -29,9 +29,10 @@ namespace MainPart
             var files = from file in allFiles
                     where file.Substring(file.Length - 3) == ".cs"
                     select file;
-            ITestGenerator generato = new TestsGenerator();
-            Task task =  new Pipeline().Generate(files, pathToGenerated,  generato);
+
+            Task task =  new Pipeline().Generate(files, pathToGenerated, new TestsGenerator());
             task.Wait();
+            //Thread.Sleep(2000);
             Console.WriteLine("end.");
         }
     }

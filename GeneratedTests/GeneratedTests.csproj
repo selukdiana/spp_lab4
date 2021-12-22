@@ -18,8 +18,4 @@
     <ProjectReference Include="..\MainPart\MainPart.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="GeneratedFiles" />
-  </ItemGroup>
-
 </Project>
