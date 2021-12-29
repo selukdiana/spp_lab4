@@ -14,8 +14,8 @@ namespace UnitTestForLib
     public class Tests
     {
         public static int i  = 0;
-        string Path = @"D:\Projects\mpp-labs\lab4\UnitTestForLib\Files";
-        string PathToFolder = @"D:\Projects\mpp-labs\lab4\UnitTestForLib\Generated\";
+        string Path = @"C:\\Users\\diana\\source\\repos\\spp_lab4\\UnitTestForLib\Files";
+        string PathToFolder = @"C:\\Users\\diana\\source\\repos\\spp_lab4\\UnitTestForLib\Generated\";
 
         IEnumerable<string> files;
         string[] generatedFiles;

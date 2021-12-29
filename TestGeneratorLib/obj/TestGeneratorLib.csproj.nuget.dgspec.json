@@ -43,6 +43,10 @@
             "Microsoft.CodeAnalysis.CSharp": {
               "target": "Package",
               "version": "[3.11.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
             }
           },
           "imports": [

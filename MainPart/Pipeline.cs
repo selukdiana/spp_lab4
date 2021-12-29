@@ -21,7 +21,7 @@ namespace MainPart
                 {
                     using (var reader = new StreamReader(path))
                     {
-                        Console.WriteLine("Readting...");
+                        Console.WriteLine("Reading...");
                         return await reader.ReadToEndAsync();
                        
                     }

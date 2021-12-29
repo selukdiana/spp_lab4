@@ -40,8 +40,9 @@ C:\Users\diana\Source\Repos\spp_lab4\MainPart\obj\Debug\net5.0\MainPart.Generate
 C:\Users\diana\Source\Repos\spp_lab4\MainPart\obj\Debug\net5.0\MainPart.AssemblyInfoInputs.cache
 C:\Users\diana\Source\Repos\spp_lab4\MainPart\obj\Debug\net5.0\MainPart.AssemblyInfo.cs
 C:\Users\diana\Source\Repos\spp_lab4\MainPart\obj\Debug\net5.0\MainPart.csproj.CoreCompileInputs.cache
-C:\Users\diana\Source\Repos\spp_lab4\MainPart\obj\Debug\net5.0\MainPart.csproj.CopyComplete
 C:\Users\diana\Source\Repos\spp_lab4\MainPart\obj\Debug\net5.0\MainPart.dll
 C:\Users\diana\Source\Repos\spp_lab4\MainPart\obj\Debug\net5.0\ref\MainPart.dll
 C:\Users\diana\Source\Repos\spp_lab4\MainPart\obj\Debug\net5.0\MainPart.pdb
 C:\Users\diana\Source\Repos\spp_lab4\MainPart\obj\Debug\net5.0\MainPart.genruntimeconfig.cache
+C:\Users\diana\Source\Repos\spp_lab4\MainPart\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\diana\Source\Repos\spp_lab4\MainPart\bin\Debug\net5.0\Moq.dll
